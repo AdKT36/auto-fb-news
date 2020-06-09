@@ -40,7 +40,7 @@ app.use((req, res, next) => {
 
 app.get('/fb-news', (req, res) => {
     generator(); //no need wait done and no need return anything
-    res.send('Hello Facebook!!!')
+    res.send('Dang thanh cong!!!')
 });
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`));
